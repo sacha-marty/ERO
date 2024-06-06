@@ -1,6 +1,8 @@
 #!/bin/sh
 
-python -m venv env
+python3 -m venv env
 source env/bin/activate
-pip install -r matplotlib osmnx networkx
-python ./main.py
+pip install osmnx 
+pip install networkx
+pip install matplotlib
+python3 ./main.py
