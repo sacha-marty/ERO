@@ -14,6 +14,7 @@ Pour lancer la demo du drone:
 Pour lancer la demo des Vehicules:
 * lancer _launch.sh Quartier_ en etant dans Vehicules/
   avec _Quartier_ le quartier de Monreal que vous voulez faire.
+  les quartier sont "Outremont", "Verdun", "Anjou", Rivière-des-prairies-pointe-aux-trembles" et "Plateau-Mont-Royal"
 
 ############################ ARBORESCENCE #####################################
 
