@@ -12,8 +12,8 @@ Pour lancer la demo du drone:
 * lancer launch.sh en etant dans Drone/
 
 Pour lancer la demo des Vehicules:
-* lancer launch.sh <Quartier> en etant dans Vehicules/
-  avec <Quartier> le quartier de Monreal que vous voulez faire.
+* lancer launch.sh ~Quartier~ en etant dans Vehicules/
+  avec ~Quartier~ le quartier de Monreal que vous voulez faire.
 
 ############################ ARBORESCENCE #####################################
 
