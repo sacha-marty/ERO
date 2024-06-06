@@ -23,14 +23,12 @@ Pour lancer la demo des Vehicules:
 |- README -> ce fichier
 |- Drone/
 |     |-- launch.sh -> le script de lancement
-|     |-- graph.xml -> le graph stocké sous format xml (Generer)
 |     |-- main.py   -> la solution en python3
 |     |-- path.txt  -> le chemin retenu par l'algorithme (Generer)
 |     |-- clear.sh  -> le script de netoyage, retire les fichiers generer et le dossier de l'environement python
 |
 |- Vehicules/
       |-- launch.sh -> le script de lancement
-      |-- graph.xml -> le graph stocké sous format xml (Generer)
       |-- main.py   -> la solution en python3
       |-- path.txt  -> le chemin retenu par l'algorithme (Generer)
       |-- clear.sh  -> le script de netoyage, retire les fichiers generer et le dossier de l'environement python
