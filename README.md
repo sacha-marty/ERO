@@ -6,23 +6,33 @@ Cela executera un script en python3 qui affichera dans le terminal les distances
 calculer et qui mettra les chemins à utiliser dans un fichier
 path.txt sous forme de (noeud_source, noeud_destination).
 
+################################ DEMO #########################################
+
+Pour lancer la demo du drone:
+* lancer _launch.sh_ en etant dans Drone/
+
+Pour lancer la demo des Vehicules:
+* lancer _launch.sh Quartier_ en etant dans Vehicules/
+  avec _Quartier_ le quartier de Monreal que vous voulez faire.
+  les quartier sont "Outremont", "Verdun", "Anjou", Rivière-des-prairies-pointe-aux-trembles" et "Plateau-Mont-Royal"
+
 ############################ ARBORESCENCE #####################################
 
 ./
 |
 |- AUTHORS -> les auteurs du projet
 |- README -> ce fichier
-|- 1_drone/
+|- Drone/
 |     |-- launch.sh -> le script de lancement
-|     |-- graph.xml -> le graph stocké sous format xml
 |     |-- main.py   -> la solution en python3
-|     |-- path.txt  -> le chemin retenu par l'algorithme
+|     |-- path.txt  -> le chemin retenu par l'algorithme (Generer)
+|     |-- clear.sh  -> le script de netoyage, retire les fichiers generer et le dossier de l'environement python
 |
-|- 2_deneigeuse/
+|- Vehicules/
       |-- launch.sh -> le script de lancement
-      |-- graph.xml -> le graph stocké sous format xml
       |-- main.py   -> la solution en python3
-      |-- path.txt  -> le chemin retenu par l'algorithme
+      |-- path.txt  -> le chemin retenu par l'algorithme (Generer)
+      |-- clear.sh  -> le script de netoyage, retire les fichiers generer et le dossier de l'environement python
       |-- out/
             |-- les sous graphes en fonction du nombre de déneigeuse
 
