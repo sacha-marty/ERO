@@ -1,15 +1,8 @@
 from datetime import datetime
 from pathlib import Path
 import networkx as nx
-import matplotlib.pyplot as plt
+import sys
 import osmnx as ox
-
-def get_graph():
-	path = "./graph.xml"
-	if Path(path).is_file(): return ox.load_graphml(path)
-	downloaded = ox.graph_from_place('Plateau-Mont-Royal, Montreal, Canada', network_type='drive', simplify=True)
-	ox.save_graphml(downloaded, path)
-	return downloaded
 
 def get_odd_vertices(G: nx.MultiGraph):
 	result = []
@@ -49,7 +42,7 @@ def measure_length(graph: nx.MultiGraph, edges):
 	return total_length
 
 def get_city():
-	directed_graph = get_graph()
+	directed_graph = ox.graph_from_place(sys.argv[1] +', Montreal, Canada', network_type='drive', simplify=True)
 	graph = nx.MultiGraph(directed_graph.to_undirected())
 	return graph
 
