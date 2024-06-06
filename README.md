@@ -9,11 +9,11 @@ path.txt sous forme de (noeud_source, noeud_destination).
 ################################ DEMO #########################################
 
 Pour lancer la demo du drone:
-* lancer launch.sh en etant dans Drone/
+* lancer _launch.sh_ en etant dans Drone/
 
 Pour lancer la demo des Vehicules:
-* lancer launch.sh ~Quartier~ en etant dans Vehicules/
-  avec ~Quartier~ le quartier de Monreal que vous voulez faire.
+* lancer _launch.sh Quartier_ en etant dans Vehicules/
+  avec _Quartier_ le quartier de Monreal que vous voulez faire.
 
 ############################ ARBORESCENCE #####################################
 
