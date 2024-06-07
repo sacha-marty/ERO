@@ -25,6 +25,7 @@ Pour lancer la demo des Vehicules:
 |- Drone/
 |     |-- launch.sh -> le script de lancement
 |     |-- main.py   -> la solution en python3
+|     |-- graph.xml -> le graph de Monreal 
 |     |-- path.txt  -> le chemin retenu par l'algorithme (Generer)
 |     |-- clear.sh  -> le script de netoyage, retire les fichiers generer et le dossier de l'environement python
 |
